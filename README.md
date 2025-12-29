@@ -1,5 +1,8 @@
 # MongoLens
 
+![RAG](https://img.shields.io/badge/RAG-grounded%20chat-purple)
+![OpenAI](https://img.shields.io/badge/OpenAI-embeddings-yellow)
+
 MongoDB → insights → grounded RAG chat (OpenAI embeddings)
 
 MongoLens is a Streamlit demo app that connects to MongoDB, lists collections, lets you select and export records as JSON, generates basic profiling and chart suggestions, and enables a RAG assistant that answers questions grounded in the exported data with citations.
