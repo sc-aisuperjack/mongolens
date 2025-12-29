@@ -1,0 +1,65 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+venv.bak/
+*.sqlite3
+
+# dotenv
+.env.local
+.env.secrets
+.env.production
+!.env          # Allow committing a safe default .env template
+!.env.example  # Also allow a documented example file
+!.env.shared   # Optional: used if you have one shared file
+
+
+# FastAPI logs
+*.log
+
+# MongoDB dump or local data
+dump/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+.vs/
+*.code-workspace
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+docker-volume/
+*.pid
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.output/
+frontend/package-lock.json
+
+# Compiled / cache
+.nyc_output/
+coverage/
+.cache/
+.next/
+out/
+build/
+
+# CI/CD artifacts
+*.coverage
+*.egg-info/
+pip-wheel-metadata/
+pytest_cache/
+coverage.xml
+test-results.xml
+
+# GitHub Actions
+ci-cd/__pycache__/
+*.log
